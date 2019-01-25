@@ -1,0 +1,4 @@
+LineNumber;OrderItemId;OrderId;BuyerName;BuyerEmail;Address;Postcode;SalePrice;ShippingPrice;SKU;Status;OrderDate
+1;2;3;Matthew S Occhipinti;mso@example.com;2776  Star Route, Chicago, Illinois;60654;159;24;198-763;IN_STOCK;2019-01-15
+2;1;2;Olive Berger;olibe@example.com;8094A Bradford Street , Fairport, NY;14450;165;32;199-844;OUT_OF_STOCK;2019-01-12
+3;3;1;Morgan Smith;moth@example.com;4830 Thrash Trail, Dallas, TX;75207;121;27;172-632;IN_STOCK;2019-01-17
