@@ -26,7 +26,7 @@ public class Ftp {
             ftpClient.setFileType(FTP.BINARY_FILE_TYPE);
  
 
-            File localFile = new File("D:\\RUDI\\Munka\\weblapok\\wamp64\\www\\WoB\\src\\files\\responseFile.csv");
+            File localFile = new File("src" + File.separator + "files" +File.separator + "responseFile.csv");
  
             String remoteFile = "responseFile.csv";
             InputStream inputStream = new FileInputStream(localFile);
