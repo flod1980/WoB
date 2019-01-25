@@ -1,6 +1,8 @@
 
 package Main;
 
+import java.io.BufferedReader;
+import java.io.File;
 import java.io.IOException;
 import java.io.Reader;
 import java.nio.file.Files;
@@ -19,7 +21,7 @@ public class Processor {
     public void manageDatas() throws IOException, Exception{
        
         try (
-                    Reader reader = Files.newBufferedReader(Paths.get("src/files/inputFile.csv"));
+                    BufferedReader reader = Files.newBufferedReader(Paths.get("src" + File.separator + "files" +File.separator + "InputFile.csv"));
                     CSVParser csvParser = new CSVParser(reader, CSVFormat.DEFAULT.withDelimiter(';')
                             .withFirstRecordAsHeader()
                             .withIgnoreHeaderCase()
